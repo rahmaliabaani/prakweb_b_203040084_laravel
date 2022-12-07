@@ -59,7 +59,7 @@ class AdminCategoryController extends Controller
     public function show(Category $category)
     {
         return view('dashboard.categories.show', [
-            'categories' => $category
+            'category' => $category
         ]);
     }
 
